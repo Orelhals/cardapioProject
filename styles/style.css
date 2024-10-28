@@ -17,11 +17,14 @@
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     color: #333;
+    /*background-image: url(/assets/bg.png);
+    background-position: center;  Centraliza a imagem 
+    background-repeat: no-repeat;*/
   }
 
   /* Cabeçalho */
   header {
-    background-color: #333;
+    background-color: #d41919;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -88,5 +91,11 @@
   .cards {
     display: grid;
     gap: 20px;
+  }
+
+  #detailsContainer {
+    background-color: rgb(190, 20, 20);
+    border-radius: 9px;
+    height: 200px;
   }
   
