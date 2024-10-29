@@ -94,8 +94,41 @@
   }
 
   #detailsContainer {
-    background-color: rgb(190, 20, 20);
+    background-color: rgb(255, 254, 254);
     border-radius: 9px;
     height: 200px;
   }
   
+  .modal {
+    display: none; /* Escondido por padrão */
+    position: fixed; /* Fica fixo na tela */
+    z-index: 1; /* Fica acima de outros conteúdos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto; /* Margem do topo e centralizado */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px; /* Cantos arredondados */
+    width: 80%; /* Largura do modal */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
